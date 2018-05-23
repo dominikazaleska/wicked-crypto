@@ -1,0 +1,10 @@
+.footer {
+    background: linear-gradient(89deg, #D63B68 0%, #de7804 100%);
+    color: #ffffff;
+	margin-bottom: 0;
+	height: 100%;
+}
+
+.container {
+	max-width: 100%;
+}

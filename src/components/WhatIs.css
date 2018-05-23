@@ -1,0 +1,24 @@
+.what-is-photo-card {
+   background-image: url("../images/wicked-photo.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   min-height: 300px;
+}
+
+.what-is-text-card {
+   	background: linear-gradient(89deg, #D63B68 0%, #de7804 100%);
+   	color: #ffffff;
+   	text-align: justify;
+   	display: flex;
+}
+
+.what-is-text {
+   	padding: 2em;
+   	margin: auto;
+}
+
+@media screen and (max-width: 575px) {
+	.what-is-header {
+		margin-top: 2em;
+	}
+}

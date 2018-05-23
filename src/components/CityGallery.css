@@ -1,0 +1,102 @@
+.container {
+   padding: 2em;
+}
+
+.row {
+	margin-top: 2em; 
+}
+
+.city-header {
+}
+
+.city-card {
+	display: flex;
+   font-family: 'PT Mono', monospace;
+   padding: 4em;
+}
+
+.warsaw-card {
+   background-image: url("../images/warsaw.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 300px;
+   margin-right: 1em;
+   margin-bottom: 1em;
+}
+
+.new-york-card {
+   background-image: url("../images/new-york.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 300px;
+   margin-left: 1em;
+   margin-bottom: 1em;
+}
+
+.paris-card {
+   background-image: url("../images/paris.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 300px;
+   margin-right: 1em;
+   margin-top: 1em;
+}
+
+.next-city-card {
+   background: linear-gradient(89deg, #D63B68 0%, #de7804 100%);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 300px;
+   margin-left: 1em;
+   margin-top: 1em;
+}
+
+.city-name {
+	color: #ffffff;
+   font-size: 2.5em;
+	margin: auto;
+   text-shadow: 2px 2px 0px rgba(0, 0, 0, .7);
+}
+
+.next-name {
+   margin-bottom: 0.7em;
+}
+
+.next-city-content {
+	margin: auto;	
+}
+
+.button-apply {
+	margin: auto;
+   width: 60%;
+}
+
+@media screen and (max-width: 575px) {
+   .container {
+      padding: 0em;
+   }
+
+   .city-header {
+      margin-top: 2em;
+   }
+
+   .warsaw-card {
+      margin-right: 0em;
+      margin-bottom: 1em;
+   }
+
+   .new-york-card {
+      margin-left: 0em;
+      margin-top: 1em;
+   }
+
+   .paris-card {
+      margin-right: 0em;
+      margin-bottom: 1em;
+   }
+
+   .next-city-card {
+      margin-left: 0em;
+      margin-top: 1em;
+   }
+}

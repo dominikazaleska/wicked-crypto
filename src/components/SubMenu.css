@@ -1,0 +1,44 @@
+.submenu1 {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	padding-top: 6.5em;
+}
+
+.submenu2 {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	padding-top: 6.5em;
+}
+
+.mdl-button:hover {
+	background-color: rgba(255,255,255,.0);
+	color: #D63B68;
+	font-weight: 600;
+}
+
+.mdl-button:active {
+	background-color: rgba(255,255,255,.0);
+	color: #D63B68;
+	font-weight: 600;
+}
+
+.button-sponsor {
+	position: absolute;
+  	right: 3em;
+}
+
+.submenu2 {
+	display: none;
+}
+
+@media screen and (max-width: 992px) {
+	.submenu1 {
+		display: none;
+	}
+
+	.submenu2 {
+		display: block;
+	}
+}

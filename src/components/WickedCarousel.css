@@ -1,0 +1,20 @@
+.carousel {
+	margin: 2em;
+}
+
+.carousel-indicators li {
+	width: 15px;
+	height: 15px;
+	border-radius: 100%;
+	border: 2px solid #ffffff;
+	margin-right: 6px;
+	margin-left: 6px;
+	background-color: rgba(255,255,255,.0);
+}
+
+@media screen and (max-width: 992px) {
+	.carousel {
+		margin-left: 0em;
+		margin-right: 0em;
+	}
+}
